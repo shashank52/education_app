@@ -17,7 +17,8 @@ void main() {
   });
 
   test(
-      'should call the [OnBoardingRepo.CacheFirstTimer] and return the right data',
+      'should call the [OnBoardingRepo.CacheFirstTimer] and '
+      'return the right data',
       () async {
     //arrange
     when(() => repo.cacheFirstTimer()).thenAnswer(

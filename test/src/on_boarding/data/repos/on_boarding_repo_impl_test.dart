@@ -25,7 +25,8 @@ void main() {
 
   group('cachedFirstTimer', () {
     test(
-        'should complete successfully when call to local data source successful',
+        'should complete successfully when call to local '
+        'data source successful',
         () async {
       //Arrange
       when(() => localDataSource.cachedFirstTime())
@@ -39,7 +40,8 @@ void main() {
     });
 
     test(
-        'should return [CacheFailure] when call to local data source unsuccessful',
+        'should return [CacheFailure] when call to local '
+        'data source unsuccessful',
         () async {
       //Arrange
       when(() => localDataSource.cachedFirstTime()).thenThrow(
@@ -63,7 +65,8 @@ void main() {
 
   group('checkIfUserIsFirstTimer', () {
     test(
-        'should complete successfully when call to local data source successful ',
+        'should complete successfully when call to local '
+        'data source successful ',
         () async {
       //arrange
       when(() => localDataSource.checkIfUserIsFirstTimer())
@@ -78,7 +81,8 @@ void main() {
     });
 
     test(
-        'should return [CacheFailure] when call to local data source unsuccessful ',
+        'should return [CacheFailure] when call to local '
+        'data source unsuccessful ',
         () async {
       //arrange
       when(() => localDataSource.checkIfUserIsFirstTimer()).thenThrow(
