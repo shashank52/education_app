@@ -1,17 +1,21 @@
 {
-    "cSpell.words": [
-        "appbar",
-        "chewie",
-        "Colour",
-        "Colours",
-        "cupertino",
-        "dartz",
-        "iconly",
-        "leaderboard",
-        "mocktail",
-        "typedefs",
-        "usecase",
-        "usecases",
-        "wireframe"
-    ]
+  "cSpell.words": [
+    "Aeonik",
+    "appbar",
+    "chewie",
+    "Colour",
+    "Colours",
+    "cupertino",
+    "dartz",
+    "datasources",
+    "iconly",
+    "leaderboard",
+    "mocktail",
+    "prefs",
+    "typedefs",
+    "usecase",
+    "usecases",
+    "wireframe"
+  ],
+  "dart.flutterSdkPath": ".fvm/versions/3.16.8"
 }
